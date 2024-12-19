@@ -1,18 +1,18 @@
 Java Launcher: D:\Program Files\Eclipse Adoptium\jdk-17.0.9.9-hotspot\bin\java.exe
-Arguments: '--clean, C:\Users\aidan\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.20.1-20230612.114412\joined-1.20.1-20230612.114412-srg.jar, --output, C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.2.19\forge-1.20.1-47.2.19-binpatched.jar, --apply, C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.2.19\forge-1.20.1-47.2.19-binpatches.lzma'
+Arguments: '--clean, C:\Users\aidan\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.20.1-20230612.114412\joined-1.20.1-20230612.114412-srg.jar, --output, C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.12\forge-1.20.1-47.3.12-binpatched.jar, --apply, C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.12\forge-1.20.1-47.3.12-binpatches.lzma'
 Classpath:
  - C:\Users\aidan\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.1.1\binarypatcher-1.1.1-fatjar.jar
-Working directory: D:\Coding\MC\Mods\RiordanMC\NorseMC\build\_applyBinpatches_2
+Working directory: D:\Coding\MC\Libraries\Mods\forge-1.20.1-47.3.12\build\_applyBinpatches_2
 Main class: net.minecraftforge.binarypatcher.ConsoleTool
 ====================================
 Applying: 
   Clean:     C:\Users\aidan\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.20.1-20230612.114412\joined-1.20.1-20230612.114412-srg.jar
-  Output:    C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.2.19\forge-1.20.1-47.2.19-binpatched.jar
+  Output:    C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.12\forge-1.20.1-47.3.12-binpatched.jar
   KeepData:  false
   Unpatched: false
   Pack200:   false
   Legacy:    false
-Loading patches file: C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.2.19\forge-1.20.1-47.2.19-binpatches.lzma
+Loading patches file: C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.12\forge-1.20.1-47.3.12-binpatches.lzma
   Reading patch com.mojang.blaze3d.pipeline.RenderTarget.binpatch
     Checksum: 151eb55a Exists: true
   Reading patch com.mojang.blaze3d.platform.GlStateManager$BlendState.binpatch
@@ -2537,6 +2537,8 @@ Loading patches file: C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: d8f38117 Exists: true
   Reading patch net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity$1.binpatch
     Checksum: bd132a43 Exists: true
+  Reading patch net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity$2.binpatch
+    Checksum: 0 Exists: false
   Reading patch net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity.binpatch
     Checksum: c45d3403 Exists: true
   Reading patch net.minecraft.world.level.block.entity.BaseContainerBlockEntity.binpatch
@@ -2551,6 +2553,8 @@ Loading patches file: C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: be7a1deb Exists: true
   Reading patch net.minecraft.world.level.block.entity.BrewingStandBlockEntity$1.binpatch
     Checksum: 1b5c09e8 Exists: true
+  Reading patch net.minecraft.world.level.block.entity.BrewingStandBlockEntity$2.binpatch
+    Checksum: 0 Exists: false
   Reading patch net.minecraft.world.level.block.entity.BrewingStandBlockEntity.binpatch
     Checksum: 8339d487 Exists: true
   Reading patch net.minecraft.world.level.block.entity.ChestBlockEntity$1.binpatch
@@ -2561,6 +2565,8 @@ Loading patches file: C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: e19ac5ed Exists: true
   Reading patch net.minecraft.world.level.block.entity.ConduitBlockEntity.binpatch
     Checksum: 95d05496 Exists: true
+  Reading patch net.minecraft.world.level.block.entity.HangingSignBlockEntity.binpatch
+    Checksum: 487928cb Exists: true
   Reading patch net.minecraft.world.level.block.entity.HopperBlockEntity.binpatch
     Checksum: e1155c60 Exists: true
   Reading patch net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity$1.binpatch
@@ -4109,6 +4115,7 @@ Processing: C:\Users\aidan\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/world/level/block/entity/ChestBlockEntity 1/1
   Patching net/minecraft/world/level/block/entity/ChiseledBookShelfBlockEntity 1/1
   Patching net/minecraft/world/level/block/entity/ConduitBlockEntity 1/1
+  Patching net/minecraft/world/level/block/entity/HangingSignBlockEntity 1/1
   Patching net/minecraft/world/level/block/entity/HopperBlockEntity 1/1
   Patching net/minecraft/world/level/block/entity/ShulkerBoxBlockEntity$1 1/1
   Patching net/minecraft/world/level/block/entity/ShulkerBoxBlockEntity$AnimationStatus 1/1
@@ -4249,7 +4256,9 @@ Processing: C:\Users\aidan\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/world/level/storage/loot/providers/nbt/ContextNbtProvider$Serializer 1/1
   Patching net/minecraft/world/level/storage/loot/providers/nbt/ContextNbtProvider 1/1
   Patching net/minecraft/world/item/crafting/RecipeType$2 1/1
+  Patching net/minecraft/world/level/block/entity/BrewingStandBlockEntity$2 1/1
   Patching net/minecraft/world/level/biome/BiomeSpecialEffects$GrassColorModifier$ColorModifier 1/1
   Patching net/minecraft/Util$3 1/1
   Patching net/minecraft/Util$4 1/1
+  Patching net/minecraft/world/level/block/entity/AbstractFurnaceBlockEntity$2 1/1
   Patching net/minecraft/world/item/Items$1 1/1

@@ -1,6 +1,5 @@
 package com.riverstone.unknown303.norsemod.datagen.loot;
 
-import com.riverstone.unknown303.norsemod.datagen.loot.ModBlockLootTables;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;

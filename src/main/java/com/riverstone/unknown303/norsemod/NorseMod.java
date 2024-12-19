@@ -1,13 +1,9 @@
 package com.riverstone.unknown303.norsemod;
 
 import com.mojang.logging.LogUtils;
-import com.riverstone.unknown303.norsemod.blocks.ModBlocks;
-import com.riverstone.unknown303.norsemod.fluid.ModFluidTypes;
-import com.riverstone.unknown303.norsemod.fluid.ModFluids;
-import com.riverstone.unknown303.norsemod.items.ModCreativeTabs;
-import com.riverstone.unknown303.norsemod.items.ModItems;
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
-import net.minecraft.client.renderer.RenderType;
+import com.riverstone.unknown303.norsemod.block.ModBlocks;
+import com.riverstone.unknown303.norsemod.item.ModCreativeTabs;
+import com.riverstone.unknown303.norsemod.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -23,47 +19,45 @@ import org.slf4j.Logger;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(NorseMod.MOD_ID)
 public class NorseMod {
-    public static final String MOD_ID = "norsemc";
+    public static final String MOD_ID = "norsemod";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public NorseMod() {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+    public NorseMod(FMLJavaModLoadingContext context) {
+        IEventBus modEventBus = context.getModEventBus();
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
-        ModFluidTypes.register(modEventBus);
-        ModFluids.register(modEventBus);
-
         ModCreativeTabs.register(modEventBus);
 
+        // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-        // Some common setup code
+        // Common setup here.
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        //Creative Mod Tabs Here
+        // Creative tabs here
     }
 
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
-        // Do something when the server starts
+        // Server start here
     }
 
-    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_BLOOD.get(), RenderType.translucent());
-            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_BLOOD.get(), RenderType.translucent());
+            // Client Setup here
         }
     }
 }
