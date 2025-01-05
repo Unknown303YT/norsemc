@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "norsemod:item/mjolnir_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "norsemod:item/mjolnir_2d"
+    },
+    "ground": {
+      "parent": "norsemod:item/mjolnir_2d"
+    },
+    "fixed": {
+      "parent": "norsemod:item/mjolnir_2d"
+    }
+  }
+}

@@ -1,10 +1,8 @@
 package com.riverstone.unknown303.norsemod.item;
 
 import com.riverstone.unknown303.norsemod.NorseMod;
-import com.riverstone.unknown303.norsemod.errorlib.ModHelpers;
 import com.riverstone.unknown303.norsemod.item.custom.MjolnirItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -15,11 +13,10 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, NorseMod.MOD_ID);
 
     public static final RegistryObject<Item> MJOLNIR = ITEMS.register("mjolnir",
-            () -> new MjolnirItem(ModToolTiers.GODLY, 0, 0,
-                    new Item.Properties().stacksTo(1)));
+            () -> new MjolnirItem(ModToolTiers.GODLY, new Item.Properties().stacksTo(1)));
 
-    public static final RegistryObject<Item> BONE_STEEL_HORSE_ARMOR =
-            ModHelpers.HORSE_ARMOR_HELPER.registerHorseArmor(ModArmorMaterials.BONE_STEEL, new Item.Properties());
+//    public static final RegistryObject<Item> BONE_STEEL_HORSE_ARMOR =
+//            ModHelpers.HORSE_ARMOR_HELPER.registerHorseArmor(ModArmorMaterials.BONE_STEEL, new Item.Properties());
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

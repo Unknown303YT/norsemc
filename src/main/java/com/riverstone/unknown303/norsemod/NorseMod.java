@@ -2,8 +2,11 @@ package com.riverstone.unknown303.norsemod;
 
 import com.mojang.logging.LogUtils;
 import com.riverstone.unknown303.norsemod.block.ModBlocks;
+import com.riverstone.unknown303.norsemod.entity.ModEntities;
 import com.riverstone.unknown303.norsemod.item.ModCreativeTabs;
 import com.riverstone.unknown303.norsemod.item.ModItems;
+import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -27,6 +30,8 @@ public class NorseMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModEntities.register(modEventBus);
 
         ModCreativeTabs.register(modEventBus);
 
@@ -57,7 +62,7 @@ public class NorseMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            // Client Setup here
+            EntityRenderers.register(ModEntities.MJOLNIR_PROJECTILE.get(), ThrownItemRenderer::new);
         }
     }
 }

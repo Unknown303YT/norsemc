@@ -18244,3 +18244,25 @@
 [13:05:22] [main/DEBUG]: Skipping Lcom/mojang/blaze3d/DontObfuscate;
 [13:05:22] [main/DEBUG]: Skipping Lcom/mojang/blaze3d/Blaze3D;
 [13:05:23] [main/INFO]: JAR transformation complete C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.12_mapped_parchment_2023.09.03-1.20.1\forge-1.20.1-47.3.12_mapped_parchment_2023.09.03-1.20.1.jar
+[18:01:43] [main/INFO]: Writing debug log file accesstransform.log
+[18:01:43] [main/INFO]: Access Transformer processor running version 8.2.1
+[18:01:43] [main/INFO]: Command line arguments [--inJar, C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.22\forge-1.20.1-47.3.22-injected.jar, --outJar, C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1\forge-1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1.jar, --logFile, accesstransform.log, --atFile, D:\Coding\MC\Mods\RiordanMC\NorseMC\build\_atJar_4\parent_at.cfg]
+[18:01:43] [main/INFO]: Reading from C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.22\forge-1.20.1-47.3.22-injected.jar
+[18:01:43] [main/INFO]: Writing to C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1\forge-1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1.jar
+[18:01:43] [main/INFO]: Transformer file D:\Coding\MC\Mods\RiordanMC\NorseMC\build\_atJar_4\parent_at.cfg
+[18:01:43] [main/WARN]: Found existing output jar C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1\forge-1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1.jar, overwriting
+[18:01:43] [main/DEBUG]: Loading access transformer parent_at.cfg from path D:\Coding\MC\Mods\RiordanMC\NorseMC\build\_atJar_4\parent_at.cfg
+[18:01:43] [main/DEBUG]: Loaded access transformer parent_at.cfg from path D:\Coding\MC\Mods\RiordanMC\NorseMC\build\_atJar_4\parent_at.cfg
+[18:01:43] [main/DEBUG]: Loaded access transformer file D:\Coding\MC\Mods\RiordanMC\NorseMC\build\_atJar_4\parent_at.cfg
+[18:01:43] [main/ERROR]: Reading JAR
+java.util.zip.ZipException: zip END header not found
+	at jdk.nio.zipfs.ZipFileSystem.findEND(ZipFileSystem.java:1320) ~[jdk.zipfs:?]
+	at jdk.nio.zipfs.ZipFileSystem.initCEN(ZipFileSystem.java:1534) ~[jdk.zipfs:?]
+	at jdk.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:179) ~[jdk.zipfs:?]
+	at jdk.nio.zipfs.ZipFileSystemProvider.getZipFileSystem(ZipFileSystemProvider.java:125) ~[jdk.zipfs:?]
+	at jdk.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:120) ~[jdk.zipfs:?]
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:528) ~[?:?]
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:400) ~[?:?]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.processJar(TransformerProcessor.java:106) ~[accesstransformers-8.2.1-fatjar.jar:8.2.1]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.main(TransformerProcessor.java:85) ~[accesstransformers-8.2.1-fatjar.jar:8.2.1]
+[18:01:43] [main/INFO]: JAR transformation complete C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1\forge-1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1.jar

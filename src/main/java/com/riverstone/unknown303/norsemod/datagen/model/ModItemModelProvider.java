@@ -17,7 +17,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        simpleItem(ModItems.BONE_STEEL_HORSE_ARMOR);
+//        simpleItem(ModItems.BONE_STEEL_HORSE_ARMOR);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> itemRegistryObject) {

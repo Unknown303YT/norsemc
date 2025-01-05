@@ -21,7 +21,7 @@ public class ModCreativeTabs {
                             new ResourceLocation(NorseMod.MOD_ID, "norse_tab")))
                     .displayItems(((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.MJOLNIR.get());
-                        pOutput.accept(ModItems.BONE_STEEL_HORSE_ARMOR.get());
+//                        pOutput.accept(ModItems.BONE_STEEL_HORSE_ARMOR.get());
                     })).build());
 
     public static void register(IEventBus eventBus) {
