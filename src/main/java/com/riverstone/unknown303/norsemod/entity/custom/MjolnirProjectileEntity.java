@@ -69,15 +69,15 @@ public class MjolnirProjectileEntity extends ThrowableItemProjectile {
             if (this.canExplode) {
                 this.level().broadcastEntityEvent(this, ((byte) 3));
                 Vec3 location = pResult.getLocation();
-                spawnEntity(this.level(), location, new LightningBolt(EntityType.LIGHTNING_BOLT, this.level()));
-                spawnEntity(this.level(), location, new LightningBolt(EntityType.LIGHTNING_BOLT, this.level()));
+                spawnEntity(this.level(), location, new LightningBolt(EntityType.LIGHTNING_BOLT, this.level()), true);
+                spawnEntity(this.level(), location, new LightningBolt(EntityType.LIGHTNING_BOLT, this.level()),true);
                 if (this.getOwner() != null) {
                     this.level().explode(owner, location.x, location.y, location.z, 5F, Level.ExplosionInteraction.MOB);
                 } else {
                     this.level().explode(this, location.x, location.y, location.z, 5F, Level.ExplosionInteraction.MOB);
                 }
-                spawnEntity(this.level(), location, new LightningBolt(EntityType.LIGHTNING_BOLT, this.level()));
-                spawnEntity(this.level(), location, new LightningBolt(EntityType.LIGHTNING_BOLT, this.level()));
+                spawnEntity(this.level(), location, new LightningBolt(EntityType.LIGHTNING_BOLT, this.level()), true);
+                spawnEntity(this.level(), location, new LightningBolt(EntityType.LIGHTNING_BOLT, this.level()), true);
 
                 this.canExplode = false;
             }
@@ -101,15 +101,15 @@ public class MjolnirProjectileEntity extends ThrowableItemProjectile {
             if (this.canExplode) {
                 this.level().broadcastEntityEvent(this, ((byte) 3));
                 Vec3 location = pResult.getLocation();
-                spawnEntity(this.level(), location, new LightningBolt(EntityType.LIGHTNING_BOLT, this.level()));
-                spawnEntity(this.level(), location, new LightningBolt(EntityType.LIGHTNING_BOLT, this.level()));
+                spawnEntity(this.level(), location, new LightningBolt(EntityType.LIGHTNING_BOLT, this.level()), true);
+                spawnEntity(this.level(), location, new LightningBolt(EntityType.LIGHTNING_BOLT, this.level()),true);
                 if (this.getOwner() != null) {
                     this.level().explode(owner, location.x, location.y, location.z, 5F, Level.ExplosionInteraction.MOB);
                 } else {
                     this.level().explode(this, location.x, location.y, location.z, 5F, Level.ExplosionInteraction.MOB);
                 }
-                spawnEntity(this.level(), location, new LightningBolt(EntityType.LIGHTNING_BOLT, this.level()));
-                spawnEntity(this.level(), location, new LightningBolt(EntityType.LIGHTNING_BOLT, this.level()));
+                spawnEntity(this.level(), location, new LightningBolt(EntityType.LIGHTNING_BOLT, this.level()), true);
+                spawnEntity(this.level(), location, new LightningBolt(EntityType.LIGHTNING_BOLT, this.level()), true);
 
                 this.canExplode = false;
             }
