@@ -161,10 +161,12 @@ public class MjolnirProjectileEntity extends ThrowableItemProjectile {
         }
     }
 
-    private void spawnEntity(Level pLevel, Vec3 pPos, Entity pEntity) {
-        Random random = new Random();
-        pEntity.setPos(pPos.x + random.nextInt(2), pPos.y + random.nextInt(2),
-                pPos.z + random.nextInt(2));
+    private void spawnEntity(Level pLevel, Vec3 pPos, Entity pEntity, boolean doesDeviate) {
+        if (doesDeviate) {
+            Random random = new Random();
+            pEntity.setPos(pPos.x + random.nextInt(2), pPos.y + random.nextInt(2),
+                    pPos.z + random.nextInt(2));
+        }
         pLevel.addFreshEntity(pEntity);
     }
 
