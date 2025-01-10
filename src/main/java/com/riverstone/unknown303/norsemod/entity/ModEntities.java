@@ -15,7 +15,7 @@ public class ModEntities {
 
     public static final RegistryObject<EntityType<MjolnirProjectileEntity>> MJOLNIR_PROJECTILE =
             ENTITY_TYPES.register("mjolnir_projectile", () -> EntityType.Builder.<MjolnirProjectileEntity>of(MjolnirProjectileEntity::new, MobCategory.MISC)
-                    .sized(0.75F, 1.125F).build("mjolnir_projectile"));
+                    .sized(1.125F, 1.6875F).build("mjolnir_projectile"));
 
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);

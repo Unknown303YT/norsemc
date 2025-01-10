@@ -1,11 +1,11 @@
-C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.12_mapped_parchment_2023.09.03-1.20.1\forge-1.20.1-47.3.12_mapped_parchment_2023.09.03-1.20.1.jar
+C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1\forge-1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1-recomp.jar
 C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar
-C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.3.12\248d4dbc017052a9f2fa460df2eb83e9aafd66d7\fmlearlydisplay-1.20.1-47.3.12.jar
-C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.12\f6b9f7f45e33548b47f78d9f54c7b4eb1e94e9bd\javafmllanguage-1.20.1-47.3.12.jar
-C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.12\81de74e1180787af25604b6ecb3728fc485bd3c7\lowcodelanguage-1.20.1-47.3.12.jar
-C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.12\1ff4ed058e0774b82d8da352d9e051e6d2a154eb\mclanguage-1.20.1-47.3.12.jar
-C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.12\9a4d9f99e106aa2358cdbe6777921855d353371\fmlcore-1.20.1-47.3.12.jar
-C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.20.1-47.3.12\32c002ec8052e6be6a9f3156e20c8e5a0fb6af8e\fmlloader-1.20.1-47.3.12.jar
+C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.3.22\c847e6564d023f01b09220f8992e042313ec8680\fmlearlydisplay-1.20.1-47.3.22.jar
+C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.22\9a1d96e9108940786d846c8cc0dac07100e79f56\javafmllanguage-1.20.1-47.3.22.jar
+C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.22\2529f2c27d8f8a63ee54efc81fdfc3cea2d43c8\lowcodelanguage-1.20.1-47.3.22.jar
+C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.22\2de14adfd8715f1956007499d8d75c6a4e6fa872\mclanguage-1.20.1-47.3.22.jar
+C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.22\cf26aeb747e0d323f8eed9b00ebfb783282d5837\fmlcore-1.20.1-47.3.22.jar
+C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.20.1-47.3.22\a147e761ce103ec09eb42bfcf793a8b20e68ac15\fmlloader-1.20.1-47.3.22.jar
 C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar
 C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarMetadata\0.3.19\83feaa9b770e6ac0e96ee4fc23fa89325c5fe2\JarJarMetadata-0.3.19.jar
 C:\Users\aidan\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar
@@ -20,7 +20,7 @@ C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\6.
 C:\Users\aidan\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\10.0.9\6d9443f56f50bb85cea383686ff9c867391458b\modlauncher-10.0.9.jar
 C:\Users\aidan\.gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.1.2\c546e00443d8432cda6baa1c860346980742628\bootstraplauncher-1.1.2.jar
 C:\Users\aidan\.gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\2.1.10\51e6a22c6c716beb11e244bf5b8be480f51dd6b5\securejarhandler-2.1.10.jar
-C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.2.1\b0a0c6a7e05ab7cdffa74bf9d7f149d26071a393\coremods-5.2.1.jar
+C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.2.4\e30bab269d896613e38396274711410b3a0e4b87\coremods-5.2.4.jar
 C:\Users\aidan\.gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.4\f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5\nashorn-core-15.4.jar
 C:\Users\aidan\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.7.1\406c6a2225cfe1819f102a161e54cc16a5c24f75\asm-commons-9.7.1.jar
 C:\Users\aidan\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.7.1\9e23359b598ec6b74b23e53110dd5c577adf2243\asm-util-9.7.1.jar

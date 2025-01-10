@@ -104,7 +104,7 @@ public class MjolnirItem extends TieredItem implements Vanishable {
             MjolnirProjectileEntity mjolnir = new MjolnirProjectileEntity(pLevel, pPlayer);
             mjolnir.setItem(itemStack);
             mjolnir.setOwner(pPlayer);
-            mjolnir.shootFromRotation(pPlayer, pPlayer.getXRot(), pPlayer.getYRot(), -45F, 1.5F, 1.0F);
+            mjolnir.shootFromRotation(pPlayer, pPlayer.getXRot(), pPlayer.getYRot(), 0, 1.5F, 1.0F);
             pLevel.addFreshEntity(mjolnir);
         }
 

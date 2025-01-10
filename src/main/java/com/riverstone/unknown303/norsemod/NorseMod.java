@@ -7,6 +7,8 @@ import com.riverstone.unknown303.norsemod.item.ModCreativeTabs;
 import com.riverstone.unknown303.norsemod.item.ModItems;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -18,6 +20,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+
+import java.util.List;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(NorseMod.MOD_ID)
@@ -64,5 +68,13 @@ public class NorseMod {
         public static void onClientSetup(FMLClientSetupEvent event) {
             EntityRenderers.register(ModEntities.MJOLNIR_PROJECTILE.get(), ThrownItemRenderer::new);
         }
+    }
+
+    public static Component combineComponent(MutableComponent base, List<MutableComponent> additions) {
+        Component toReturn = base;
+        for (MutableComponent addition : additions) {
+            base.append(addition);
+        }
+        return toReturn;
     }
 }

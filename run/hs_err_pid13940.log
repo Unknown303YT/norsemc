@@ -1,0 +1,238 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 134217728 bytes. Error detail: G1 virtual space
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   This process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#   JVM is running with Unscaled Compressed Oops mode in which the Java heap is
+#     placed in the first 4GB address space. The Java Heap base address is the
+#     maximum limit for the native heap growth. Please use -XX:HeapBaseMinAddress
+#     to set the Java Heap base and to place the Java Heap above 4GB virtual address.
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_windows.cpp:3614), pid=13940, tid=6680
+#
+# JRE version:  (17.0.13+11) (build )
+# Java VM: OpenJDK 64-Bit Server VM (17.0.13+11, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Dforge.enableGameTest=true -Dforge.enabledGameTestNamespaces=norsemod -Dforge.logging.console.level=debug -Dforge.logging.markers=REGISTRIES -DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,client-extra,fmlcore,javafmllanguage,lowcodelanguage,mclanguage,forge- -Djava.net.preferIPv6Addresses=system -DlegacyClassPath.file=D:\Coding\MC\Mods\RiordanMC\NorseMC\build\classpath\runClient_minecraftClasspath.txt -DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar --module-path=C:\Users\aidan\.gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.1.2\c546e00443d8432cda6baa1c860346980742628\bootstraplauncher-1.1.2.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\2.1.10\51e6a22c6c716beb11e244bf5b8be480f51dd6b5\securejarhandler-2.1.10.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.7.1\406c6a2225cfe1819f102a161e54cc16a5c24f75\asm-commons-9.7.1.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.7.1\9e23359b598ec6b74b23e53110dd5c577adf2243\asm-util-9.7.1.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.7.1\f97a3b319f0ed6a8cd944dc79060d3912a28985f\asm-analysis-9.7.1.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.7.1\3a53139787663b139de76b627fca0084ab60d32c\asm-tree-9.7.1.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.7.1\f0ed132a49244b042cd0e15702ab9f2ce3cc8436\asm-9.7.1.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarFileSystems\0.3.19\2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\JarJarFileSystems-0.3.19.jar --add-modules=ALL-MODULE-PATH --add-opens=java.base/java.util.jar=cpw.mods.securejarhandler --add-opens=java.base/java.lang.invoke=cpw.mods.securejarhandler --add-exports=java.base/sun.security.util=cpw.mods.securejarhandler --add-exports=jdk.naming.dns/com.sun.jndi.dns=java.naming -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Dfile.encoding=windows-1252 -Duser.country=AU -Duser.language=en -Duser.variant cpw.mods.bootstraplauncher.BootstrapLauncher --launchTarget forgeclientuserdev --version MOD_DEV --assetIndex 5 --assetsDir C:\Users\aidan\.gradle\caches\forge_gradle\assets --gameDir . --fml.forgeVersion 47.3.22 --fml.mcVersion 1.20.1 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20230612.114412
+
+Host: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz, 8 cores, 7G,  Windows 10 , 64 bit Build 19041 (10.0.19041.5198)
+Time: Thu Jan  9 12:14:05 2025 Cen. Australia Daylight Time elapsed time: 0.032695 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000272f74d6200):  JavaThread "Unknown thread" [_thread_in_vm, id=6680, stack(0x0000008935200000,0x0000008935300000)]
+
+Stack: [0x0000008935200000,0x0000008935300000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x682a19]
+V  [jvm.dll+0x839538]
+V  [jvm.dll+0x83afe3]
+V  [jvm.dll+0x83b653]
+V  [jvm.dll+0x24704f]
+V  [jvm.dll+0x67f809]
+V  [jvm.dll+0x6746fa]
+V  [jvm.dll+0x304a96]
+V  [jvm.dll+0x30bf56]
+V  [jvm.dll+0x35da5e]
+V  [jvm.dll+0x35dc9d]
+V  [jvm.dll+0x2dbe5c]
+V  [jvm.dll+0x2dcd74]
+V  [jvm.dll+0x80b44b]
+V  [jvm.dll+0x36b491]
+V  [jvm.dll+0x7e9e3f]
+V  [jvm.dll+0x3f1d7f]
+V  [jvm.dll+0x3f38b1]
+C  [jli.dll+0x5278]
+C  [ucrtbase.dll+0x21bb2]
+C  [KERNEL32.DLL+0x17374]
+C  [ntdll.dll+0x4cc91]
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x00007ff980c37f58, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+  0x00000272f7531b10 GCTaskThread "GC Thread#0" [stack: 0x0000008935300000,0x0000008935400000] [id=13888]
+  0x00000272f7544890 ConcurrentGCThread "G1 Main Marker" [stack: 0x0000008935400000,0x0000008935500000] [id=15392]
+  0x00000272f7545960 ConcurrentGCThread "G1 Conc#0" [stack: 0x0000008935500000,0x0000008935600000] [id=13384]
+
+[error occurred during error reporting (printing all threads), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ff9803ec987]
+
+VM state: not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x00000272f74d3640] Heap_lock - owner thread: 0x00000272f74d6200
+
+Heap address: 0x0000000080800000, size: 2040 MB, Compressed Oops mode: 32-bit
+
+CDS archive(s) mapped at: [0x0000000000000000-0x0000000000000000-0x0000000000000000), size 0, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 1.
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0, Narrow klass range: 0x0
+
+GC Precious Log:
+<Empty>
+
+Heap:
+ garbage-first heap   total 0K, used 0K [0x0000000080800000, 0x0000000100000000)
+  region size 1024K, 0 young (0K), 0 survivors (0K)
+
+[error occurred during error reporting (printing heap information), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ff9807dc179]
+
+GC Heap History (0 events):
+No events
+
+Dll operation events (1 events):
+Event: 0.011 Loaded shared library D:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin\java.dll
+
+Deoptimization events (0 events):
+No events
+
+Classes loaded (0 events):
+No events
+
+Classes unloaded (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+VM Operations (0 events):
+No events
+
+Memory protections (0 events):
+No events
+
+Nmethod flushes (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff6b2e00000 - 0x00007ff6b2e0e000 	D:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin\java.exe
+0x00007ff9c5c70000 - 0x00007ff9c5e68000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ff9c4b20000 - 0x00007ff9c4be2000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ff9c37a0000 - 0x00007ff9c3a9e000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ff9c3b90000 - 0x00007ff9c3c90000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ff9bfe60000 - 0x00007ff9bfe7e000 	D:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin\VCRUNTIME140.dll
+0x00007ff9c03e0000 - 0x00007ff9c03f7000 	D:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin\jli.dll
+0x00007ff9c3c90000 - 0x00007ff9c3e2d000 	C:\WINDOWS\System32\USER32.dll
+0x00007ff9c3af0000 - 0x00007ff9c3b12000 	C:\WINDOWS\System32\win32u.dll
+0x00007ff9b5c00000 - 0x00007ff9b5e9a000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.4355_none_60b8b9eb71f62e16\COMCTL32.dll
+0x00007ff9c54f0000 - 0x00007ff9c551b000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ff9c4d30000 - 0x00007ff9c4dce000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ff9c3310000 - 0x00007ff9c3427000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ff9c3430000 - 0x00007ff9c34cd000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ff9c4af0000 - 0x00007ff9c4b1f000 	C:\WINDOWS\System32\IMM32.DLL
+0x00007ff9c0310000 - 0x00007ff9c031c000 	D:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin\vcruntime140_1.dll
+0x00007ff99cb50000 - 0x00007ff99cbdd000 	D:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin\msvcp140.dll
+0x00007ff980100000 - 0x00007ff980d6b000 	D:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin\server\jvm.dll
+0x00007ff9c4190000 - 0x00007ff9c4241000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ff9c5100000 - 0x00007ff9c519f000 	C:\WINDOWS\System32\sechost.dll
+0x00007ff9c4e30000 - 0x00007ff9c4f53000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ff9c3630000 - 0x00007ff9c3657000 	C:\WINDOWS\System32\bcrypt.dll
+0x00007ff9c4cc0000 - 0x00007ff9c4d2b000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ff9c2870000 - 0x00007ff9c28bb000 	C:\WINDOWS\SYSTEM32\POWRPROF.dll
+0x00007ff9bc280000 - 0x00007ff9bc28a000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ff9b7c10000 - 0x00007ff9b7c37000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ff9c26e0000 - 0x00007ff9c26f2000 	C:\WINDOWS\SYSTEM32\UMPDC.dll
+0x00007ff9c1b40000 - 0x00007ff9c1b52000 	C:\WINDOWS\SYSTEM32\kernel.appcore.dll
+0x00007ff9bfeb0000 - 0x00007ff9bfeba000 	D:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin\jimage.dll
+0x00007ff9c0fd0000 - 0x00007ff9c11b4000 	C:\WINDOWS\SYSTEM32\DBGHELP.DLL
+0x00007ff9a88c0000 - 0x00007ff9a88f4000 	C:\WINDOWS\SYSTEM32\dbgcore.DLL
+0x00007ff9c3660000 - 0x00007ff9c36e2000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ff9bd000000 - 0x00007ff9bd025000 	D:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin\java.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;D:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin;C:\WINDOWS\SYSTEM32;C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.4355_none_60b8b9eb71f62e16;D:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin\server
+
+VM Arguments:
+jvm_args: -Dforge.enableGameTest=true -Dforge.enabledGameTestNamespaces=norsemod -Dforge.logging.console.level=debug -Dforge.logging.markers=REGISTRIES -DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,client-extra,fmlcore,javafmllanguage,lowcodelanguage,mclanguage,forge- -Djava.net.preferIPv6Addresses=system -DlegacyClassPath.file=D:\Coding\MC\Mods\RiordanMC\NorseMC\build\classpath\runClient_minecraftClasspath.txt -DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar --module-path=C:\Users\aidan\.gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.1.2\c546e00443d8432cda6baa1c860346980742628\bootstraplauncher-1.1.2.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\2.1.10\51e6a22c6c716beb11e244bf5b8be480f51dd6b5\securejarhandler-2.1.10.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.7.1\406c6a2225cfe1819f102a161e54cc16a5c24f75\asm-commons-9.7.1.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.7.1\9e23359b598ec6b74b23e53110dd5c577adf2243\asm-util-9.7.1.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.7.1\f97a3b319f0ed6a8cd944dc79060d3912a28985f\asm-analysis-9.7.1.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.7.1\3a53139787663b139de76b627fca0084ab60d32c\asm-tree-9.7.1.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.7.1\f0ed132a49244b042cd0e15702ab9f2ce3cc8436\asm-9.7.1.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarFileSystems\0.3.19\2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\JarJarFileSystems-0.3.19.jar --add-modules=ALL-MODULE-PATH --add-opens=java.base/java.util.jar=cpw.mods.securejarhandler --add-opens=java.base/java.lang.invoke=cpw.mods.securejarhandler --add-exports=java.base/sun.security.util=cpw.mods.securejarhandler --add-exports=jdk.naming.dns/com.sun.jndi.dns=java.naming -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Dfile.encoding=windows-1252 -Duser.country=AU -Duser.language=en -Duser.variant 
+java_command: cpw.mods.bootstraplauncher.BootstrapLauncher --launchTarget forgeclientuserdev --version MOD_DEV --assetIndex 5 --assetsDir C:\Users\aidan\.gradle\caches\forge_gradle\assets --gameDir . --fml.forgeVersion 47.3.22 --fml.mcVersion 1.20.1 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20230612.114412
+java_class_path (initial): D:\Coding\MC\Mods\RiordanMC\NorseMC\build\classes\java\main;D:\Coding\MC\Mods\RiordanMC\NorseMC\build\resources\main;C:\Users\aidan\.gradle\caches\forge_gradle\deobf_dependencies\com\riverstone\unknown303\errorlib-2.0.1\1.20.1-api_mapped_parchment_2023.09.03-1.20.1\errorlib-2.0.1-1.20.1-api_mapped_parchment_2023.09.03-1.20.1.jar;C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1\forge-1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1-recomp.jar;C:\Users\aidan\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.20.1-forge\15.20.0.105_mapped_parchment_2023.09.03-1.20.1\jei-1.20.1-forge-15.20.0.105_mapped_parchment_2023.09.03-1.20.1.jar;C:\Users\aidan\.gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.3.22\c847e6564d023f01b09220f8992e042313ec8680\fmlearlydisplay-1.20.1-47.3.22.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.22\9a1d96e9108940786d846c8cc0dac07100e79f56\javafmllanguage-1.20.1-47.3.22.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.22\2529f2c27d8f8a63ee54efc81fdfc3cea2d43c8\lowcodelanguage-1.20.1-47.3.22.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.22\2de14adfd8715f1956007499d8d75c6a4e6fa872\mclanguage-1.20.1-47.3.22.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.22\cf26aeb747e0d323f8eed9b00ebfb783282d5837\fmlcore-1.20.1-47.3.22.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.20.1-47.3.22\a147e761ce103ec09eb42bfcf793a8b20e68ac15\fmlloader-1.20.1-47.3.22.jar;C:\Users\aidan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     intx CICompilerCount                          = 4                                         {product} {ergonomic}
+     uint ConcGCThreads                            = 2                                         {product} {ergonomic}
+     uint G1ConcRefinementThreads                  = 8                                         {product} {ergonomic}
+   size_t G1HeapRegionSize                         = 1048576                                   {product} {ergonomic}
+    uintx GCDrainStackTargetSize                   = 64                                        {product} {ergonomic}
+    ccstr HeapDumpPath                             = MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump         {manageable} {command line}
+   size_t InitialHeapSize                          = 134217728                                 {product} {ergonomic}
+   size_t MarkStackSize                            = 4194304                                   {product} {ergonomic}
+   size_t MaxHeapSize                              = 2139095040                                {product} {ergonomic}
+   size_t MinHeapDeltaBytes                        = 1048576                                   {product} {ergonomic}
+   size_t MinHeapSize                              = 8388608                                   {product} {ergonomic}
+    uintx NonNMethodCodeHeapSize                   = 5839372                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122909434                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122909434                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+   size_t SoftMaxHeapSize                          = 2139095040                             {manageable} {ergonomic}
+     bool UseCompressedClassPointers               = true                           {product lp64_product} {ergonomic}
+     bool UseCompressedOops                        = true                           {product lp64_product} {ergonomic}
+     bool UseG1GC                                  = true                                      {product} {ergonomic}
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags
+ #1: stderr all=off uptime,level,tags
+
+Environment Variables:
+JAVA_HOME=D:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot
+CLASSPATH=D:\Coding\MC\Mods\RiordanMC\NorseMC\\gradle\wrapper\gradle-wrapper.jar
+PATH=D:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin;d:\program files\eclipse adoptium\jdk-21.0.4.7-hotspot\bin;c:\program files\python311\scripts\;c:\program files\python311\;d:\program files\python 3.11\scripts\;d:\program files\python 3.11\;c:\windows\system32;c:\windows;c:\windows\system32\wbem;c:\windows\system32\windowspowershell\v1.0\;c:\windows\system32\openssh\;c:\program files (x86)\gnupg\bin;d:\program files\putty\;d:\program files\maven\apache-maven-3.9.4\bin;c:\program files\git\cmd;c:\program files\git\cmd;d:\program files\tortoisegit\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\Python\Python313\Scripts\;D:\Program Files\Python\Python313\;C:\Users\aidan\CodaKid\Dependencies\jdk17\bin;C:\Users\aidan\CodaKid\Dependencies\jdk\bin;C:\Users\aidan\CodaKid\Dependencies\jdk17\bin;D:\Program Files\Python 3.11\Scripts\;D:\Program Files\Python 3.11\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files (x86)\gnupg\bin;C:\Program Files (x86)\ZeroTier\One\;D:\Program Files\PuTTY\;D:\Program Files\TortoiseGit\bin;C:\Users\amy_p\CodaKid\Dependencies\jdk\bin;D:\Program Files\Python 3.11\Scripts\;D:\Program Files\Python 3.11\;D:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\amy_p\CodaKid\Dependencies\jdk\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS;C:\Users\aidan\AppData\Local\Programs\Microsoft VS Code\bin;D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2\bin;;C:\Users\aidan\AppData\Roaming\Python\Python311\Scripts;;C:\Users\aidan\.bun\bin
+USERNAME=aidan
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+TMP=C:\Users\aidan\AppData\Local\Temp
+TEMP=C:\Users\aidan\AppData\Local\Temp
+
+
+
+Periodic native trim disabled
+
+
+---------------  S Y S T E M  ---------------
+
+OS:
+ Windows 10 , 64 bit Build 19041 (10.0.19041.5198)
+OS uptime: 0 days 1:30 hours
+Hyper-V role detected
+
+CPU: total 8 (initial active 8) (4 cores per cpu, 2 threads per core) family 6 model 58 stepping 9 microcode 0x21, cx8, cmov, fxsr, ht, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, tsc, tscinvbit, avx, aes, erms, clmul, vzeroupper, clflush, hv
+Processor Information for all 8 processors :
+  Max Mhz: 3901, Current Mhz: 3901, Mhz Limit: 3901
+
+Memory: 4k page, system-wide physical 8152M (895M free)
+TotalPageFile size 13859M (AvailPageFile size 84M)
+current process WorkingSet (physical memory assigned to process): 10M, peak: 10M
+current process commit charge ("private bytes"): 60M, peak: 188M
+
+vm_info: OpenJDK 64-Bit Server VM (17.0.13+11) for windows-amd64 JRE (17.0.13+11), built on Oct 16 2024 00:10:08 by "admin" with MS VC++ 17.7 (VS2022)
+
+END.

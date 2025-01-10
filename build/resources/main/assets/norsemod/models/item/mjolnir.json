@@ -9,7 +9,7 @@
       "parent": "norsemod:item/mjolnir_2d"
     },
     "ground": {
-      "parent": "norsemod:item/mjolnir_2d"
+      "parent": "norsemod:item/mjolnir_3d"
     },
     "fixed": {
       "parent": "norsemod:item/mjolnir_2d"
