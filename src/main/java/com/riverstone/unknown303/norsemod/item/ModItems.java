@@ -12,6 +12,9 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, NorseMod.MOD_ID);
 
+    public static final RegistryObject<Item> BONE_STEEL = ITEMS.register("bone_steel",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> MJOLNIR = ITEMS.register("mjolnir",
             () -> new MjolnirItem(ModToolTiers.GODLY, new Item.Properties().stacksTo(1)));
 

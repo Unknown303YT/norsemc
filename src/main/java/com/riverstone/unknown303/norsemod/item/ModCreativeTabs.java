@@ -20,6 +20,7 @@ public class ModCreativeTabs {
                     .title(MiscUtil.createTranslatableComponent("creative_tab",
                             new ResourceLocation(NorseMod.MOD_ID, "norse_tab")))
                     .displayItems(((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.BONE_STEEL.get());
                         pOutput.accept(ModItems.MJOLNIR.get());
 //                        pOutput.accept(ModItems.BONE_STEEL_HORSE_ARMOR.get());
                     })).build());
