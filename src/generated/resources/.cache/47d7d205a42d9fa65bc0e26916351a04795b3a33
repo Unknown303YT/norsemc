@@ -1,1 +1,3 @@
-// 1.20.1	2025-01-04T13:02:06.7332682	Tags for minecraft:block mod id norsemod
+// 1.20.1	2025-01-13T13:35:59.5438518	Tags for minecraft:block mod id norsemod
+92139f9563938115343b0720291c6f533b60f519 data/minecraft/tags/blocks/mineable/pickaxe.json
+92139f9563938115343b0720291c6f533b60f519 data/minecraft/tags/blocks/needs_diamond_tool.json

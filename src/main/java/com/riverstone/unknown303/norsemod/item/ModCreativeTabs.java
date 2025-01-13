@@ -2,6 +2,7 @@ package com.riverstone.unknown303.norsemod.item;
 
 import com.riverstone.unknown303.errorlib.api.misc.MiscUtil;
 import com.riverstone.unknown303.norsemod.NorseMod;
+import com.riverstone.unknown303.norsemod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,7 @@ public class ModCreativeTabs {
                             new ResourceLocation(NorseMod.MOD_ID, "norse_tab")))
                     .displayItems(((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.BONE_STEEL.get());
+                        pOutput.accept(ModBlocks.BONE_STEEL_BLOCK.get());
                         pOutput.accept(ModItems.MJOLNIR.get());
 //                        pOutput.accept(ModItems.BONE_STEEL_HORSE_ARMOR.get());
                     })).build());

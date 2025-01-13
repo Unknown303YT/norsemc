@@ -1,6 +1,7 @@
 package com.riverstone.unknown303.norsemod.datagen.loot;
 
 import com.riverstone.unknown303.norsemod.block.ModBlocks;
+import com.riverstone.unknown303.norsemod.item.ModItems;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
@@ -22,10 +23,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-
+        this.dropSelf(ModBlocks.BONE_STEEL_BLOCK.get());
     }
 
-    protected LootTable.Builder createCopperLikeOreDrops(Block block, Item item) {
+    protected LootTable.Builder createOreDrops(Block block, Item item) {
         return createSilkTouchDispatchTable(block,
                 this.applyExplosionDecay(block,
                         LootItem.lootTableItem(item)

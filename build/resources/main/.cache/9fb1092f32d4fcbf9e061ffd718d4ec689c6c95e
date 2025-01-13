@@ -1,1 +1,5 @@
-// 1.20.1	2025-01-04T13:02:06.4693431	Recipes
+// 1.20.1	2025-01-13T13:29:09.8788874	Recipes
+d09759466e85a7156f6830d4610c8c3bc6bbd88e data/norsemod/advancements/recipes/building_blocks/bone_steel_block.json
+9ba5a958353708023c7767cb26e2ef26f0fd77cb data/norsemod/advancements/recipes/misc/bone_steel_from_bone_steel_block.json
+8773422fcad00fc5cdd644c1dabe6b98424b94a1 data/norsemod/recipes/bone_steel_block.json
+4a29605dd13f8e0392e1d3f2f7f4f90691459e55 data/norsemod/recipes/bone_steel_from_bone_steel_block.json

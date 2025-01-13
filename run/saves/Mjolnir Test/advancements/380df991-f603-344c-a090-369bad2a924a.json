@@ -77,5 +77,35 @@
     },
     "done": true
   },
+  "norsemod:recipes/building_blocks/bone_steel_block": {
+    "criteria": {
+      "has_bone_steel": "2025-01-13 13:30:52 +1030"
+    },
+    "done": true
+  },
+  "norsemod:recipes/misc/bone_steel_from_bone_steel_block": {
+    "criteria": {
+      "has_bone_steel_block": "2025-01-13 13:31:22 +1030"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-01-13 13:37:59 +1030"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-01-13 13:37:59 +1030"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-01-13 13:37:59 +1030"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

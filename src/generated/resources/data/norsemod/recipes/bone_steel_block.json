@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "bone_steel_block",
+  "key": {
+    "#": {
+      "item": "norsemod:bone_steel"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "norsemod:bone_steel_block"
+  },
+  "show_notification": true
+}

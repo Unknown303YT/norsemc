@@ -1,6 +1,7 @@
 package com.riverstone.unknown303.norsemod.datagen.model;
 
 import com.riverstone.unknown303.norsemod.NorseMod;
+import com.riverstone.unknown303.norsemod.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
@@ -14,7 +15,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-
+        blockWithItem(ModBlocks.BONE_STEEL_BLOCK);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

@@ -1,31 +1,31 @@
-[10Jan2025 13:14:17.318] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\gifte\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.22, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, norsemod, --all, --output, C:\Users\gifte\MC\RiordanMC\NorseMC\src\generated\resources, --existing, C:\Users\gifte\MC\RiordanMC\NorseMC\src\main\resources]
-[10Jan2025 13:14:17.333] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[10Jan2025 13:14:17.758] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[10Jan2025 13:14:17.946] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/gifte/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[10Jan2025 13:14:18.879] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\gifte\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.22\9a1d96e9108940786d846c8cc0dac07100e79f56\javafmllanguage-1.20.1-47.3.22.jar is missing mods.toml file
-[10Jan2025 13:14:18.893] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\gifte\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.22\2529f2c27d8f8a63ee54efc81fdfc3cea2d43c8\lowcodelanguage-1.20.1-47.3.22.jar is missing mods.toml file
-[10Jan2025 13:14:18.900] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\gifte\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.22\2de14adfd8715f1956007499d8d75c6a4e6fa872\mclanguage-1.20.1-47.3.22.jar is missing mods.toml file
-[10Jan2025 13:14:18.917] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\gifte\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.22\cf26aeb747e0d323f8eed9b00ebfb783282d5837\fmlcore-1.20.1-47.3.22.jar is missing mods.toml file
-[10Jan2025 13:14:19.189] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[10Jan2025 13:14:23.886] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\gifte\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, norsemod, --all, --output, C:\Users\gifte\MC\RiordanMC\NorseMC\src\generated\resources, --existing, C:\Users\gifte\MC\RiordanMC\NorseMC\src\main\resources]
-[10Jan2025 13:14:25.504] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [norsemod]
-[10Jan2025 13:14:39.686] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.22, for MC 1.20.1 with MCP 20230612.114412
-[10Jan2025 13:14:39.689] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.22 Initialized
-[10Jan2025 13:14:40.659] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[10Jan2025 13:14:40.673] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 8.997 ms
-[10Jan2025 13:14:41.786] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/gifte/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[10Jan2025 13:14:41.787] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/gifte/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[10Jan2025 13:14:42.774] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[10Jan2025 13:14:42.795] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 19 ms
-[10Jan2025 13:14:42.795] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[10Jan2025 13:14:42.879] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 83 ms
-[10Jan2025 13:14:42.879] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: norsemod
-[10Jan2025 13:14:42.881] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: norsemod finished after 0 ms
-[10Jan2025 13:14:42.881] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: norsemod
-[10Jan2025 13:14:42.941] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: norsemod finished after 59 ms
-[10Jan2025 13:14:42.941] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id norsemod
-[10Jan2025 13:14:43.062] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id norsemod finished after 124 ms
-[10Jan2025 13:14:43.062] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id norsemod
-[10Jan2025 13:14:43.069] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id norsemod finished after 2 ms
-[10Jan2025 13:14:43.069] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 296 ms
-[10Jan2025 13:14:43.084] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 1, old count: 0, new count: 2, removed stale: 0, written: 1
+[13Jan2025 13:49:22.367] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\gifte\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.22, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, norsemod, --all, --output, C:\Users\gifte\MC\RiordanMC\NorseMC\src\generated\resources, --existing, C:\Users\gifte\MC\RiordanMC\NorseMC\src\main\resources]
+[13Jan2025 13:49:22.379] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[13Jan2025 13:49:22.616] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[13Jan2025 13:49:22.721] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/gifte/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[13Jan2025 13:49:23.192] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\gifte\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.22\9a1d96e9108940786d846c8cc0dac07100e79f56\javafmllanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[13Jan2025 13:49:23.198] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\gifte\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.22\2529f2c27d8f8a63ee54efc81fdfc3cea2d43c8\lowcodelanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[13Jan2025 13:49:23.207] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\gifte\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.22\2de14adfd8715f1956007499d8d75c6a4e6fa872\mclanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[13Jan2025 13:49:23.213] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\gifte\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.22\cf26aeb747e0d323f8eed9b00ebfb783282d5837\fmlcore-1.20.1-47.3.22.jar is missing mods.toml file
+[13Jan2025 13:49:23.362] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[13Jan2025 13:49:25.583] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\gifte\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, norsemod, --all, --output, C:\Users\gifte\MC\RiordanMC\NorseMC\src\generated\resources, --existing, C:\Users\gifte\MC\RiordanMC\NorseMC\src\main\resources]
+[13Jan2025 13:49:26.625] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [norsemod]
+[13Jan2025 13:49:34.957] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.22, for MC 1.20.1 with MCP 20230612.114412
+[13Jan2025 13:49:34.958] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.22 Initialized
+[13Jan2025 13:49:35.490] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[13Jan2025 13:49:35.509] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 10.54 ms
+[13Jan2025 13:49:36.309] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/gifte/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[13Jan2025 13:49:36.310] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/gifte/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.22_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[13Jan2025 13:49:36.706] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[13Jan2025 13:49:36.813] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 105 ms
+[13Jan2025 13:49:36.813] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[13Jan2025 13:49:36.943] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 129 ms
+[13Jan2025 13:49:36.943] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: norsemod
+[13Jan2025 13:49:37.187] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: norsemod finished after 242 ms
+[13Jan2025 13:49:37.187] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: norsemod
+[13Jan2025 13:49:37.188] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: norsemod finished after 1 ms
+[13Jan2025 13:49:37.189] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id norsemod
+[13Jan2025 13:49:37.205] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id norsemod finished after 16 ms
+[13Jan2025 13:49:37.205] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id norsemod
+[13Jan2025 13:49:37.207] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id norsemod finished after 1 ms
+[13Jan2025 13:49:37.207] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 502 ms
+[13Jan2025 13:49:37.218] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 11, old count: 11, new count: 12, removed stale: 0, written: 0

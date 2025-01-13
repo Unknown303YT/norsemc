@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "bone_steel",
+  "ingredients": [
+    {
+      "item": "norsemod:bone_steel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "norsemod:bone_steel"
+  }
+}
